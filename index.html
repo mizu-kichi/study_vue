@@ -16,9 +16,9 @@
         <p v-if="show">v-ifのテスト</p>
         <br>
         <br>
-        <button v-on:click="show=!show">切り替え</button>
+        <button v-on:click="is_show=!is_show">切り替え</button>
         <transition>
-            <p v-if="show">トランジション&アニメーションのテスト</p>
+            <p v-if="is_show">トランジション&アニメーションのテスト</p>
         </transition>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>

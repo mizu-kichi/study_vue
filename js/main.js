@@ -3,7 +3,8 @@ var app = new Vue({
     data: {
         message: 'Hello Vue.js!',
         list: ['りんご', 'ばなな', 'いちご'],
-        show: true
+        show: true,
+        is_show: true,
     },
     methods: {
         handleClick: function(event) {
